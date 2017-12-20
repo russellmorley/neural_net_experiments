@@ -1,11 +1,16 @@
 # neural net experiments
 
-A simple neural net with data to demonstrate learning.
+A simple neural net with data to demonstrate learning and prediction.
 
 ### Algorithm
 
 * a sigmoid function as its non-linearity
 * a simple back propagation mechanism to train synaptic weights based on the error weighted by the derivative of the non-linearity. Errors for small derivatives make little changes to synaptic weights whereas for large derivatives make larger changes to synaptic weights.
+
+### Dependencies
+
+*  numpy
+*  pandas
 
 ### Usage
 
