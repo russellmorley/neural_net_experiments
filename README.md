@@ -34,3 +34,11 @@ To configure the neural net to have intermediate layers of size 3 and depth of 1
 
     python nn.py -s 3 -d 1 -i 3 -v training_index-3_110-1.txt 1,1,0
 
+### Results
+
+*  training_index-3_110-1.txt: Training description: output opposite of third input. Analyzing [1, 1, 0]: Expect 1. Converges and successfully predicts with net of intermediate node size of 3 and depth of 1, and intermediate node size of 6 and depth of 3.
+*  training_index-3_111-0.txt: Training description: output 1 if first and second inputs are opposite. Analyzing [1, 1, 1]: Expect 0.  Converges and successfully predicts with net of intermediate node size of 3 and depth of 1, and intermediate node size of 20 and depth of 1.
+*  training_index-3_100-10.txt: Training escription: opposite in position 1 and 2 outputs 1 and 1 in position 3 outputs second 1. Analyzing [1,0,0]: expect [1,0]. Converges and successfully predicts with net of intermediate node size of 3 and depth of 1, int_size of 20 and depth of 1.
+* training_index-3_100-01.txt: Training description: opposite in position 1 and 2 outputs 1 and 1 in position 3 outputs second 1. Analyzing [1, 0, 0]: Expect [0,1]. Converges and successfully predicts with net of intermediate node size of 3 and depth of 1, and intermediate node size of 20 and depth of 1.
+*  training_index-3_100-1.txt: Training description: output 1 if first is one. Analyze [1, 0, 0]: Expect 1.  Converges and successfully predicts with net of intermediate node size of 3 and depth of 1, and intermediate node size of 20 and depth of 1.
+*  training_index-4_1100-1.txt: Training description: two consecutive 1s are 1. Analyzing [1, 1, 0, 0]: Expect 1. Cannot find net that works. Successfully converged with intermediate node size and depths of: 4,1; 4,2; 6,6; 20,1 yet answer was decisively the opposite of what was predicted (0 instead of 1). Appears that net is trained on another pattern I don't see, or its structure or back propagation mechanism can't be used to train successfully on this pattern.
