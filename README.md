@@ -9,6 +9,7 @@ A simple neural net with data to demonstrate learning.
 
 ### Usage
 
+```
 usage: nn.py [options] [-s size |-d depth] -i index filename_training_csv analyze_data_in
 
 where:
@@ -20,6 +21,7 @@ where:
 
 Options
   -v     verbose output
+```
 
 #### Example command
 
