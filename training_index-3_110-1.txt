@@ -1,0 +1,8 @@
+Description: output opposite of third input. Analyzing [1, 1, 0]: Expect 1. Works well with int_size of 3 and depth of 1, int_size of 6 and depth of 3.
+0, 0, 0, 1 
+0, 0, 1, 0 
+0, 1, 0, 1 
+0, 1, 1, 0 
+1, 0, 0, 1 
+1, 0, 1, 0 
+1, 1, 1, 0

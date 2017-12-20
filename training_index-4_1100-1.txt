@@ -1,0 +1,16 @@
+Description: two consecutive 1s are 1. Analyzing [1, 1, 0, 0]: Expect 1. Cannot find net that works. int_size of 6 and depth of 6 converges but wrong answer.
+0, 0, 0, 0, 0
+0, 0, 0, 1, 0
+0, 0, 1, 0, 0
+0, 0, 1, 1, 1
+0, 1, 0, 0, 0
+0, 1, 0, 1, 0
+0, 1, 1, 0, 1
+0, 1, 1, 1, 0
+1, 0, 0, 0, 0
+1, 0, 0, 1, 0
+1, 0, 1, 0, 0
+1, 0, 1, 1, 0
+1, 1, 0, 1, 0
+1, 1, 1, 0, 0
+1, 1, 1, 1, 0
