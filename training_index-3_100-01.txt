@@ -1,4 +1,4 @@
-Description: opposite in position 1 and 2 outputs 1 and 1 in position 3 outputs second 1. Analyzing [1, 0, 0]: Expect [0,1]. Works well with int_size of 3 and depth of 1, int_size of 20 and depth of 1.
+Description: opposite in position 1 and 2 outputs 1 and 1 in position 3 outputs second 1. Analyzing [1, 0, 0]: Expect [0,1].
 0,0,0,1,1
 0,0,1,1,1
 0,1,0,1,1

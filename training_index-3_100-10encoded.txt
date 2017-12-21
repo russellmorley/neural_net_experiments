@@ -1,0 +1,8 @@
+Description: 00 means all 1s, 10 means one 1, 01 means two 1s, 11 means no ones. Analyzing [1,0,0]: expect [1,0].
+0,0,0, 1,1
+0,0,1, 1,0
+0,1,0, 1,0
+1,1,1, 1,1
+1,0,1, 0,1
+1,1,0, 0,1
+1,1,1, 0,0

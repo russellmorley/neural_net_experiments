@@ -1,4 +1,4 @@
-Description: output 1 if first is one. Analyze [1, 0, 0]: Expect 1.  Works well with int_size of 3 and depth of 1, int_size of 20 and depth of 1.
+Description: output 1 if first is one. Analyze [1, 0, 0]: Expect 1.
 0, 0, 1, 0
 1, 1, 1, 1
 1, 0, 1, 1

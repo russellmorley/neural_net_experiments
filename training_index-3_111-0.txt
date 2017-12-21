@@ -1,4 +1,4 @@
-Description: output 1 if first and second inputs are opposite. Analyzing [1, 1, 1]: Expect 0.  Works well with int_size of 3 and depth of 1, int_size of 20 and depth of 1.
+Description: output 1 if first and second inputs are opposite. Analyzing [1, 1, 1]: Expect 0.
 0, 0, 1, 0
 1, 1, 1, 0
 1, 0, 1, 1

@@ -1,4 +1,4 @@
-Description: opposite in position 1 and 2 outputs 1 and 1 in position 3 outputs second 1. Analyzing [1,0,0]: expect [1,0]
+Description: opposite in position 1 and 2 outputs 1 and 1 in position 3 outputs second 1. Analyzing [1,0,0]: expect [1,0].
 0,0,0, 0,0
 0,0,1, 0,1
 0,1,0, 1,0
